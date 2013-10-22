@@ -5,8 +5,8 @@ require.config({
     "vendor": "../vendor",
     // Almond is used to lighten the output filesize.
     "almond": "../vendor/bower/almond/almond",
-    "underscore": "../vendor/bower/lodash/dist/lodash.underscore",
-    "lodash": "../vendor/bower/lodash/dist/lodash",
+    "underscore": "../vendor/js/libs/lodash.underscore",
+    "lodash": "../vendor/js/libs/lodash",
     "jquery": "../vendor/bower/jquery/jquery",
     "backbone": "../vendor/bower/backbone/backbone",
     "popcorn": "../vendor/bower/popcornjs/popcorn",
