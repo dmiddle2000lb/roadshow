@@ -15,7 +15,7 @@ define([
     root: "/"
   };
 
-  app.socket = Socket.connect('http://localhost:8000');
+  app.socket = Socket.connect(location.origin);
 
   window.socket = app.socket;
 
