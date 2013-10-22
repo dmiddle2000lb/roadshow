@@ -1,0 +1,254 @@
+/*-- Bootstrap. -------------------------------------------------------------*/
+
+@import "../../vendor/bootstrap/css/bootstrap.css";
+
+.guesses {
+    background: #999;
+    color: #000;
+}
+
+.appraisal {
+    margin: 3em 0 0 0;
+}
+
+.button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 1.5em; /* 24px */
+    line-height: 1.6875em; /* 27px */
+    /* padding: 0 15px; // LINE HEIGHT DOES THIS FOR ME */
+    cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 1px 2px 1px rgb(204, 204, 204);
+}
+
+.button-blue-bg {
+    box-shadow: 0px 1px 2px 1px #024683;
+}
+
+.button-white-bg {
+    box-shadow: 0px 1px 2px 1px #cccccc;
+}
+
+.orange {
+    background-color: #e98824;
+}
+.orange:hover {
+    background-color: #ce7024;
+}
+
+.blue {
+    background-color: #4575ab;
+}
+.blue:hover {
+    background-color: #345d8d;
+}
+
+#start-button {
+    width: 206px;
+}
+
+.greybox {
+    padding: 5px;
+    background: #f0f0f0;
+    margin-bottom: 2px;
+}
+
+.full {
+    height: 100%;
+    width: 100%;
+}
+
+.intro-padding {
+    margin: 10px 0;
+}
+
+.center-img {
+    display: block;
+    margin: 2.5px auto 2.5px auto;
+}
+
+.center-button {
+    margin: 13px auto 26px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.bluebox {
+    padding: 5px;
+    background: #4575ab;
+    margin-bottom: 2px;
+}
+
+.white-paragraph {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.125em; /* 18px */
+    line-height: 1.375em; /* 22px */
+}
+
+.overline {
+    font-variant: small-caps;
+}
+
+.w240 {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-box {
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5em; /* 24px */
+    line-height: 1.6875em; /* 27px */
+    color: #848484;
+    padding-left: 6px;
+    margin: 0 auto;
+    display: block;
+    /*padding: 18px 0 18px 12px;*/
+}
+
+.input-box:focus {
+    border-color: #848484;
+    box-shadow: inset 0px 1px 2px 1px rgba(0, 0, 0,.2);  
+}
+
+::-webkit-input-placeholder { color: #dcdcdc; }
+:-moz-placeholder { /* Firefox 18- */ color: #dcdcdc; }
+::-moz-placeholder {  /* Firefox 19+ */ color: #dcdcdc; }
+:-ms-input-placeholder { color: #dcdcdc; }
+
+#vote-submit,
+#username-button {
+    width: 162px;
+}
+
+.blue-hr {
+    margin: 5px 0;
+    border-top: 1px solid #345d8d;
+}
+
+.grey-overline {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #848484;
+    font-size: 1.125em; /* 18px */
+    line-height: 1.375em; /* 22px */
+    text-align: center;
+}
+
+.city-name {
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    color: #353535;
+    font-size: 1.375em; /* 22px */
+    line-height: 1.6875em; /* 27px */
+    text-align: center;
+}
+
+.object-title {
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    color: #353535;
+    font-size: 1.125em; /* 18px */
+    line-height: 1.375em; /* 22px */
+    border-top: 3px #353535 solid;
+    border-bottom: 1px #353535 solid;
+    text-align: center;
+}
+
+#value {
+    width: 100%;
+    height: 61px;
+}
+
+.whitebox {
+    margin: 3px 0;
+    height: 66px;
+}
+
+.timer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 1.125em; /* 18px */
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+    padding-top: 20px;
+    height: 46px;
+    width: 66px;
+    background-color: #024683;
+    text-align: center;
+    border-radius: 100px;
+    float: left;
+    margin-left: 7px;
+}
+
+.timer-done {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 0.75em; /* 12px? */
+    font-style: italic;
+    height: 43px;
+    padding-top: 23px;
+    width: 66px;
+    background-color: #353535;
+    text-align: center;
+    border-radius: 100px;
+    float: left;
+    margin-left: 7px;
+}
+
+.float-button {
+    clear: left;
+    margin-top: -55px;
+    margin-right: 7px;
+    float: right;
+}
+
+.guesses-count {
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #848484;
+    font-size: 1.125em; /* 18px */
+    line-height: 1.375em; /* 22px */
+    text-align: center;
+}
+
+.average-box {
+    margin: 0 auto;
+    width: 306px;
+    background-color: #fff;
+    border: solid 1px #848484;
+    border-radius: 2px;
+}
+
+.average-area-orange {
+    background-color: #e98824;
+}
+
+.total-guesses {
+    line-height: 1em;
+    text-align: center;
+}
+
+.guess-value {
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    color: #3eb750;
+    font-size: 2.25em; /* 36px */
+    line-height: 1.125em; /* caz */
+    text-align: center;
+}
+

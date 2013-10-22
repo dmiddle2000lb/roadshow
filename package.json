@@ -1,0 +1,23 @@
+{
+  "name": "Roadshow",
+  "version": "0.0.0",
+  "description": "antiques roadshow silliness",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "express": "~3.4.2",
+    "grunt-bbb-server": "~0.1.0-alpha.13",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dmiddle2000lb/roadshow.git"
+  },
+  "author": "Dan Middleton",
+  "license": "BSD",
+  "readmeFilename": "readme.md"
+}
